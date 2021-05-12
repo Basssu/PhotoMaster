@@ -13,6 +13,8 @@
 		C595DC28264B9B490072C5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C595DC26264B9B490072C5AB /* Main.storyboard */; };
 		C595DC2A264B9B4D0072C5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C595DC29264B9B4D0072C5AB /* Assets.xcassets */; };
 		C595DC2D264B9B4D0072C5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C595DC2B264B9B4D0072C5AB /* LaunchScreen.storyboard */; };
+		C595DC36264C13030072C5AB /* furo_ducky.png in Resources */ = {isa = PBXBuildFile; fileRef = C595DC35264C13020072C5AB /* furo_ducky.png */; };
+		C595DC39264C15D30072C5AB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C595DC38264C15D30072C5AB /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C595DC29264B9B4D0072C5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C595DC2C264B9B4D0072C5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C595DC2E264B9B4D0072C5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C595DC35264C13020072C5AB /* furo_ducky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = furo_ducky.png; path = "../../../life_is_tech/swift/3-上級素材/PhotoMaster素材/furo_ducky.png"; sourceTree = "<group>"; };
+		C595DC38264C15D30072C5AB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				C595DC20264B9B490072C5AB /* AppDelegate.swift */,
 				C595DC22264B9B490072C5AB /* SceneDelegate.swift */,
+				C595DC35264C13020072C5AB /* furo_ducky.png */,
 				C595DC24264B9B490072C5AB /* ViewController.swift */,
+				C595DC38264C15D30072C5AB /* icon.png */,
 				C595DC26264B9B490072C5AB /* Main.storyboard */,
 				C595DC29264B9B4D0072C5AB /* Assets.xcassets */,
 				C595DC2B264B9B4D0072C5AB /* LaunchScreen.storyboard */,
@@ -124,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C595DC36264C13030072C5AB /* furo_ducky.png in Resources */,
+				C595DC39264C15D30072C5AB /* icon.png in Resources */,
 				C595DC2D264B9B4D0072C5AB /* LaunchScreen.storyboard in Resources */,
 				C595DC2A264B9B4D0072C5AB /* Assets.xcassets in Resources */,
 				C595DC28264B9B490072C5AB /* Main.storyboard in Resources */,
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LRZ98LL6;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LRZ98LL6;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
